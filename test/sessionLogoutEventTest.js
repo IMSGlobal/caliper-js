@@ -50,7 +50,7 @@ test('Create Session LOGOUT Event and validate attributes', function(t) {
   targetObj.setActor(actor);
   targetObj.setStartedAtTime((new Date("2015-02-15T10:15:00Z")).toISOString());
   targetObj.setEndedAtTime((new Date("2015-02-15T11:05:00Z")).toISOString());
-  targetObj.setDuration(null);
+  targetObj.setDuration("PT3000S");
   targetObj.setDateCreated((new Date("2015-01-01T06:00:00Z")).toISOString());
   targetObj.setDateModified((new Date("2015-02-02T11:30:00Z")).toISOString());
 
@@ -82,6 +82,7 @@ test('Create Session LOGOUT Event and validate attributes', function(t) {
   sessionEvent.setLisOrganization(org);
   sessionEvent.setStartedAtTime((new Date("2015-02-15T10:15:00Z")).toISOString());
   sessionEvent.setEndedAtTime((new Date("2015-02-15T11:05:00Z")).toISOString());
+  sessionEvent.setDuration("PT3000S");
 
   console.log("Session Event = " + util.inspect(sessionEvent));
 
