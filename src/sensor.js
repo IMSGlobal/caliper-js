@@ -93,6 +93,7 @@ Caliper.Actions.AssessmentActions     = require('./actions/assessmentActions');
 Caliper.Actions.AssessmentItemActions = require('./actions/assessmentItemActions');
 Caliper.Actions.AssignableActions     = require('./actions/assignableActions');
 Caliper.Actions.MediaActions          = require('./actions/mediaActions');
+Caliper.Actions.NavigationActions     = require('./actions/navigationActions');
 Caliper.Actions.OutcomeActions        = require('./actions/outcomeActions');
 Caliper.Actions.ReadingActions        = require('./actions/readingActions');
 Caliper.Actions.SessionActions        = require('./actions/sessionActions');

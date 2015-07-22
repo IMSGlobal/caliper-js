@@ -17,11 +17,11 @@
  */
 
 /**
- * Enum representing all outcome actions.
+ * Enum representing default actions.
  * @enum
  */
-var outcomeActions = {
-  "GRADED": "http://purl.imsglobal.org/vocab/caliper/v1/action#Graded",
+var navigationActions = {
+  "NAVIGATED_TO": "http://purl.imsglobal.org/vocab/caliper/v1/action#NavigatedTo"
 };
 
-module.exports = outcomeActions;
+module.exports = navigationActions;

@@ -31,7 +31,7 @@ var Event = require('../src/events/navigationEvent');
 var Person = require('../src/entities/agent/person');
 
 // Actions
-var ReadingActions = require('../src/actions/readingActions');
+var NavigationActions = require('../src/actions/navigationActions');
 
 // Activity Context
 var EPubVolume = require('../src/entities/reading/ePubVolume');
@@ -67,7 +67,7 @@ test('Create Envelope containing a single Navigation Event and validate attribut
     session.setDuration(null);
 
     // The Action for the Caliper Event
-    var action = ReadingActions.NAVIGATED_TO;
+    var action = NavigationActions.NAVIGATED_TO;
 
     // The Object being interacted with by the Actor
     var eventObj = new EPubVolume("https://example.com/viewer/book/34843#epubcfi(/4/3)");

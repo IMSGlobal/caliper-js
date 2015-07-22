@@ -27,7 +27,7 @@ var Event = require('../src/events/navigationEvent');
 var Person = require('../src/entities/agent/person');
 
 // Actions
-var ReadingActions = require('../src/actions/readingActions');
+var NavigationActions = require('../src/actions/navigationActions');
 
 // Activity Context
 var EPubVolume = require('../src/entities/reading/ePubVolume');
@@ -54,7 +54,7 @@ test('Create Navigation Event and validate attributes', function (t) {
     actor.setDateModified((new Date("2015-09-02T11:30:00Z")).toISOString());
 
     // The Action for the Caliper Event
-    var action = ReadingActions.NAVIGATED_TO;
+    var action = NavigationActions.NAVIGATED_TO;
 
     // The Object being interacted with by the Actor
     var eventObj = new EPubVolume("https://example.com/viewer/book/34843#epubcfi(/4/3)");

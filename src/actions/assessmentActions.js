@@ -25,7 +25,6 @@ var assessmentActions = {
   "RESTARTED": "http://purl.imsglobal.org/vocab/caliper/v1/action#Restarted",
   "STARTED": "http://purl.imsglobal.org/vocab/caliper/v1/action#Started",
   "SUBMITTED": "http://purl.imsglobal.org/vocab/caliper/v1/action#Submitted",
-  "NAVIGATED_TO": "http://purl.imsglobal.org/vocab/caliper/v1/action#NavigatedTo"
 };
 
 module.exports = assessmentActions;

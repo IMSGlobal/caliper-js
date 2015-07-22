@@ -30,7 +30,6 @@ var assignableActions = {
   "SHOWED": "http://purl.imsglobal.org/vocab/caliper/v1/action#Showed",
   "STARTED": "http://purl.imsglobal.org/vocab/caliper/v1/action#Started",
   "SUBMITTED": "http://purl.imsglobal.org/vocab/caliper/v1/action#Submitted",
-  "NAVIGATED_TO": "http://purl.imsglobal.org/vocab/caliper/v1/action#NavigatedTo"
 };
 
 module.exports = assignableActions;

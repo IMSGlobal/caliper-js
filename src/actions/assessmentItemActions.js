@@ -26,7 +26,6 @@ var assessmentItemActions = {
   "SKIPPED": "http://purl.imsglobal.org/vocab/caliper/v1/action#Skipped",
   "STARTED": "http://purl.imsglobal.org/vocab/caliper/v1/action#Started",
   "VIEWED": "http://purl.imsglobal.org/vocab/caliper/v1/action#Viewed",
-  "NAVIGATED_TO": "http://purl.imsglobal.org/vocab/caliper/v1/action#NavigatedTo"
 };
 
 module.exports = assessmentItemActions;
