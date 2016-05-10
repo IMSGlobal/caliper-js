@@ -25,11 +25,11 @@ var DigitalResourceType = require('../digitalResourceType');
  * MediaLocation's prototype set to DigitalResource
  * @constructor
  * @param {string} id URI
- * @param {string} type Type
+ * @property {string} type Type
  * @property {string} currentTime String representing current time
  * @extends MediaObject
  */
-function MediaLocation(id, type) {
+function MediaLocation(id) {
     DigitalResource.call(this);
     this.setId(id);
     this.setType(DigitalResourceType.MEDIA_LOCATION);
