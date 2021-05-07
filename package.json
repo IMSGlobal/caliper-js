@@ -28,7 +28,7 @@
     "hashmap": "^2.1.0",
     "http-browserify": "^1.7.0",
     "https-browserify": "^1.0.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "moment": "^2.22.2",
     "node-uuid": "^1.4.7",
     "request": "^2.87.0",
